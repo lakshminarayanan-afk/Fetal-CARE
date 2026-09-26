@@ -1,0 +1,18 @@
+# Fetal-CARE reviewer routing thresholds
+
+tau_1: 0.30
+tau_2: 0.62
+
+reviewers:
+  R1:
+    name: "Junior Reviewer"
+    vacuity_min: 0.00
+    vacuity_max: 0.30
+  R2:
+    name: "Senior Reviewer"
+    vacuity_min: 0.30
+    vacuity_max: 0.62
+  R3:
+    name: "Expert Reviewer"
+    vacuity_min: 0.62
+    vacuity_max: 1.00
